@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../resourses/css/Contacto.css">
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+    </header>
+    <main>
+        <section class="contact-form">
+            <h2>Escribe para contactarnos</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+    <div class="boton-regresar">
+        <a href="../index.html">Regresar al Home</a>
+    </div>
+
+    <footer>
+        <p>&copy; Test de Codo a codo</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,29 @@
+ body {
+    background-color: lightcyan;
+  }
+  /*
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  .navbar-inverse {
+    background-color: #337ab7;
+    border-color: #337ab7;
+  }
+  .navbar-nav>li>a {
+    color: #fff;
+  }
+  .dropdown-menu>li>a {
+    color: #333;
+  }
+  .dropdown-menu>li>a:hover {
+    background-color: #f5f5f5;
+  } */
+
+  .carousel-inner img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    max-height: 400px; /* Establece una altura máxima para las imágenes */
+    object-fit: cover; /* Ajusta la imagen para cubrir todo el espacio disponible */
+  }
